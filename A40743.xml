@@ -1,0 +1,940 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Further account of the proceedings against the rebels in the west of England, who on the 10th of September, 1685, to the number of two-hundred fifty one, received sentence of death at Dorchester for high-treason ...</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1685</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 14 KB of XML-encoded text transcribed from 3 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A40743</idno>
+            <idno type="STC">Wing F2545</idno>
+            <idno type="STC">ESTC R11423</idno>
+            <idno type="EEBO-CITATION">13791553</idno>
+            <idno type="OCLC">ocm 13791553</idno>
+            <idno type="VID">101852</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A40743)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 101852)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 454:29)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A Further account of the proceedings against the rebels in the west of England, who on the 10th of September, 1685, to the number of two-hundred fifty one, received sentence of death at Dorchester for high-treason ...</title>
+               </titleStmt>
+               <extent>4 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by E. Mallet ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1685.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Caption title.</note>
+                  <note>Imprint from colophon.</note>
+                  <note>"This may be printed; R.L.S., September the 17th, 1685."</note>
+                  <note>Contains lists of names of those sentenced to death for high treason.</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Great Britain --  History --  James II, 1685-1688.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-04</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-01</date>
+            <label>Megan Marion</label>Sampled and proofread</change>
+         <change>
+            <date>2010-01</date>
+            <label>Megan Marion</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="text">
+            <pb facs="tcp:101852:1"/>
+            <pb facs="tcp:101852:1" rendition="simple:additions"/>
+            <head>A further ACCOUNT, OF THE PROCEEDINGS AGAINST THE REBELS in the Weſt of ENGLAND; Who on the 10th. of <hi>September,</hi> 1685. To the Number of Two-Hundred Fifty One Received Sentence of Death, at <hi>Dorcheſter</hi> for High-Treaſon Of which Number 67. were ordered to be Execu<g ref="char:EOLhyphen"/>ted at <hi>Lyme, Bridport, Weymouth, Melcom-Re<g ref="char:EOLhyphen"/>gis, Sherborn, Pool,</hi> and <hi>Wareham,</hi> and the Re<g ref="char:EOLhyphen"/>mainder reſpited till farther Order, <hi>September</hi> the 11th, 1685.</head>
+            <p>IT might have been reaſonably ima<g ref="char:EOLhyphen"/>gined that former Examples ſhould have been ſufficient, to have put a ſtop to thoſe Factious Spirits; who have all along made it their buſineſs to diſburb the Peace of this Nation, but 'tis Evident, (either tranſported with Malice, or a deſire to advance themſelves upon the Ruin of their Country;) they have been of late, more and more reſtleſs, pulling off by degrees the Veil of diſſimu<g ref="char:EOLhyphen"/>lation, and in the end, divers of them; to their Shame and Confuſion, have drawn that ruin upon themſelves which they in<g ref="char:EOLhyphen"/>tended to others, by enterprizing an un<g ref="char:EOLhyphen"/>natural Rebellion againſt the beſt of Prin<g ref="char:EOLhyphen"/>ces, though altogether without ſucceſs; for on the <hi>6th,</hi> of <hi>July</hi> laſt being utterly broken and ſubdued; a great part of them there, or ſoon after taken Priſoners:
+<pb n="2" facs="tcp:101852:2"/>Thoſe that were taken, were ſecured in divers Priſons, of which, theſe whoſe Names follow having been put into the hands of Juſtice, divers of them upon their Arraignments confeſſed the Indict<g ref="char:EOLhyphen"/>ments, and the reſt putting themſelves upon Tryal were found Guilty of the<hi>High-Treaſon</hi> as layd in their Indictments, it appearing they were either taken on the <hi>6th.</hi> of <hi>July</hi> laſt, upon the defeat of the Rebels Army near <hi>Bridgewater,</hi> or ſoon after; and they having nothing materi<g ref="char:EOLhyphen"/>al to offer in their own behalf, received Sentence of Death for <hi>High-Treaſon,</hi> on the <hi>10th</hi> of this Inſtant <hi>September,</hi> 1685. Sixty Seven of them were at that time, ordered to be Executed at Seven adjacent <hi>Towns,</hi> as thus,</p>
+            <list>
+               <head>At <hi>Lyme</hi> in the County of <hi>Dorſet</hi> twelve, <hi>viz.</hi>
+               </head>
+               <item>
+                  <hi>Abraham Holms.</hi>
+               </item>
+               <item>
+                  <hi>Joſia Askew.</hi>
+               </item>
+               <item>
+                  <hi>William Hewling.</hi>
+               </item>
+               <item>
+                  <hi>John Hays.</hi>
+               </item>
+               <item>
+                  <hi>John Kidd.</hi>
+               </item>
+               <item>
+                  <hi>John Marders,</hi> Con<g ref="char:EOLhyphen"/>ſtable of <hi>Crookhorn</hi>
+               </item>
+               <item>
+                  <hi>Sampſon Lark.</hi>
+               </item>
+               <item>
+                  <hi>Chriſto. Battiscomb.</hi>
+               </item>
+               <item>
+                  <hi>Leonard Jackſon.</hi>
+               </item>
+               <item>
+                  <hi>Henry Wats.</hi>
+               </item>
+               <item>
+                  <hi>Benjamin Temple.</hi>
+               </item>
+               <item>
+                  <hi>Robert Matchet.</hi>
+               </item>
+               <item>The firſt Nine of theſe Perſons, came from the Priſon of <hi>Newgate</hi> and the <hi>Gate-Houſe.</hi>
+               </item>
+            </list>
+            <list>
+               <head>Thirteen to be Executed at <hi>Bridport;</hi> the Sheriff to ſee Execution done according to his Orders, <hi>viz.</hi>
+               </head>
+               <item>
+                  <hi>Robert Bull</hi> and <hi>John</hi>
+               </item>
+               <item>
+                  <hi>Bull</hi> of <hi>Axminſter.</hi>
+               </item>
+               <item>
+                  <hi>Benjamin Sandford of Combepine.</hi>
+               </item>
+               <item>
+                  <hi>John Lee of Buckrel.</hi>
+               </item>
+               <item>
+                  <hi>William Quinten of Shute.</hi>
+               </item>
+               <item>
+                  <hi>Thomas Clap</hi> of <hi>Side<g ref="char:EOLhyphen"/>mouth,</hi>
+               </item>
+               <item>
+                  <hi>Thomas Cook of Kil<g ref="char:EOLhyphen"/>lington.</hi>
+               </item>
+               <item>
+                  <hi>George Collier</hi> of <hi>
+                     <g ref="char:V">Ʋ</g>p<g ref="char:EOLhyphen"/>lime.</hi>
+               </item>
+               <item>
+                  <hi>Robert Fawn</hi> of <hi>Cor<g ref="char:EOLhyphen"/>ſtombe.</hi>
+               </item>
+               <item>
+                  <hi>John Beamont,</hi> Sen. of <hi>Lyme.</hi>
+               </item>
+               <item>
+                  <hi>John Sprake</hi> and <hi>A<g ref="char:EOLhyphen"/>zarias Pinney, of Axminſter.</hi>
+               </item>
+            </list>
+            <p>Malachie Malacke <hi>order'd likewiſe to be Executed at</hi> Bridgport, <hi>but ſince Reprieved.</hi>
+            </p>
+            <list>
+               <head>Twelve order'd to be Executed at <hi>Wey-mouth</hi> and <hi>Melcombe-Regis, viz.</hi>
+               </head>
+               <item>
+                  <hi>Thomas Forte.</hi>
+               </item>
+               <item>
+                  <hi>John Beavis.</hi>
+               </item>
+               <item>
+                  <hi>Triſtram Elliot.</hi>
+               </item>
+               <item>
+                  <hi>Robert Slade.</hi>
+               </item>
+               <item>
+                  <hi>William Lancaſter.</hi>
+               </item>
+               <item>
+                  <hi>John Burridge.</hi>
+               </item>
+               <item>
+                  <hi>John Hartley.</hi>
+               </item>
+               <item>
+                  <hi>George Smith.</hi>
+               </item>
+               <item>
+                  <hi>George Willmot.</hi>
+               </item>
+               <item>
+                  <hi>John Robins.</hi>
+               </item>
+               <item>
+                  <hi>Edward Leggit.</hi>
+               </item>
+               <item>
+                  <hi>Roger Satchell.</hi>
+               </item>
+            </list>
+            <list>
+               <head>Twelve order'd to be Executed at <hi>Sher: born;</hi> the Sheriff to ſee it done likewiſe according to his Order, <hi>viz.</hi>
+               </head>
+               <item>
+                  <hi>Samuel Gliſſon.</hi>
+               </item>
+               <item>
+                  <hi>William Hart.</hi>
+               </item>
+               <item>
+                  <hi>John Leggit.</hi>
+               </item>
+               <item>
+                  <hi>Francis Skinner.</hi>
+               </item>
+               <item>
+                  <hi>William Alſtone.</hi>
+               </item>
+               <item>
+                  <hi>George Puckeridge.</hi>
+               </item>
+               <item>
+                  <hi>Henry Rowe.</hi>
+               </item>
+               <item>
+                  <hi>John Lawrence.</hi>
+               </item>
+               <item>
+                  <hi>Michael Abbot.</hi>
+               </item>
+               <item>
+                  <hi>Richard Hall.</hi>
+               </item>
+               <item>
+                  <hi>John Savage.</hi>
+               </item>
+               <item>
+                  <hi>Robert VVhorwood.</hi>
+               </item>
+            </list>
+            <p>
+               <hi>The firſt of theſe were brought from</hi> New<g ref="char:EOLhyphen"/>gate.</p>
+            <list>
+               <head>Twelve ordered to be Executed at <hi>Pool;</hi> the Sheriff to ſee Execution done; but no certain day aſſigned, <hi>viz.</hi>
+               </head>
+               <item>
+                  <hi>William Dilling.</hi>
+               </item>
+               <item>
+                  <hi>Andrew Tozier.</hi>
+               </item>
+               <item>
+                  <hi>William Hardiman.</hi>
+               </item>
+               <item>
+                  <hi>Thomas Jenkins.</hi>
+               </item>
+               <item>
+                  <hi>Robert Salter.</hi>
+               </item>
+               <item>
+                  <hi>Thomas VValdron</hi>
+               </item>
+               <item>
+                  <hi>John Pulling.</hi>
+               </item>
+               <item>
+                  <hi>Andrew Ellis,</hi> alias <hi>Cozens.</hi>
+               </item>
+               <item>
+                  <hi>Joſias Reſtrick.</hi>
+               </item>
+               <item>
+                  <hi>Phillip Cocks.</hi>
+               </item>
+               <item>
+                  <hi>William Martin.</hi>
+               </item>
+               <item>
+                  <hi>Nicholas Hoar.</hi>
+               </item>
+            </list>
+            <list>
+               <head>At <hi>Wareham</hi> Six were ordered to be Ex<g ref="char:EOLhyphen"/>ecuted; the Sheriff to ſee Execution done; but no day appointed, <hi>viz.</hi>
+               </head>
+               <item>
+                  <hi>Samuel Robins.</hi>
+               </item>
+               <item>
+                  <hi>William Cock</hi> Sen.</item>
+               <item>
+                  <hi>John Holloway.</hi>
+               </item>
+               <item>
+                  <hi>Adam Hawley.</hi>
+               </item>
+               <item>
+                  <hi>Thomas Tyler.</hi> and</item>
+               <item>
+                  <hi>Tho. Lawrence</hi> who is ſince reprieved</item>
+            </list>
+            <list>
+               <head>The Perſons that received Sentence with the former, and no place nor time then or<g ref="char:EOLhyphen"/>dered for their Execution, were to the Number of 184. <hi>viz.</hi>
+               </head>
+               <item>
+                  <hi>John Smith.</hi>
+               </item>
+               <item>
+                  <hi>Edward Lewther.</hi>
+               </item>
+               <item>
+                  <hi>John Downs.</hi>
+               </item>
+               <item>
+                  <hi>John Edwards.</hi>
+               </item>
+               <item>
+                  <hi>Nathaniel Swapper.</hi>
+               </item>
+               <item>
+                  <hi>John Winniby.</hi>
+               </item>
+               <item>
+                  <hi>Benjamin Bryan.</hi>
+               </item>
+               <item>
+                  <hi>Henry Plotworthy.</hi>
+               </item>
+               <item>
+                  <hi>John Loe.</hi>
+               </item>
+               <item>
+                  <hi>VVilliam Pippin.</hi>
+               </item>
+               <item>
+                  <hi>John VVhite.</hi>
+               </item>
+               <item>
+                  <hi>James Pomray.</hi>
+               </item>
+               <pb n="3" facs="tcp:101852:2"/>
+               <item>
+                  <hi>Robert Shaw.</hi>
+               </item>
+               <item>
+                  <hi>Thomas Gammidge.</hi>
+               </item>
+               <item>
+                  <hi>Stephen Cook.</hi>
+               </item>
+               <item>
+                  <hi>Thomas Bennet.</hi>
+               </item>
+               <item>
+                  <hi>John Manning.</hi>
+               </item>
+               <item>
+                  <hi>John Fiſher.</hi>
+               </item>
+               <item>
+                  <hi>Robert Lumber.</hi>
+               </item>
+               <item>
+                  <hi>VVilliam Watfield.</hi>
+               </item>
+               <item>
+                  <hi>George Plumley.</hi>
+               </item>
+               <item>
+                  <hi>Richard Keach.</hi>
+               </item>
+               <item>
+                  <hi>Thomas Allen.</hi>
+               </item>
+               <item>
+                  <hi>John Reaſon.</hi>
+               </item>
+               <item>
+                  <hi>George Speering.</hi>
+               </item>
+               <item>
+                  <hi>Mathew Porter.</hi>
+               </item>
+               <item>
+                  <hi>Robert Spurway.</hi>
+               </item>
+               <item>
+                  <hi>Peter Row.</hi>
+               </item>
+               <item>
+                  <hi>John Lovering</hi>
+               </item>
+               <item>
+                  <hi>Robert Foard.</hi>
+               </item>
+               <item>
+                  <hi>John Beamont <hi>Ju.</hi>
+                  </hi>
+               </item>
+               <item>
+                  <hi>Eliah Stephens.</hi>
+               </item>
+               <item>
+                  <hi>Daniel Parker</hi>
+               </item>
+               <item>
+                  <hi>John Bridle.</hi>
+               </item>
+               <item>
+                  <hi>Thomas Parſons.</hi>
+               </item>
+               <item>
+                  <hi>Nicholas Palmer.</hi>
+               </item>
+               <item>
+                  <hi>John Davis</hi>
+               </item>
+               <item>
+                  <hi>Thomas Williams.</hi>
+               </item>
+               <item>
+                  <hi>Mathew Hutchins.</hi>
+               </item>
+               <item>
+                  <hi>Nicholas Smith.</hi>
+               </item>
+               <item>
+                  <hi>— Mallet.</hi>
+               </item>
+               <item>
+                  <hi>John King.</hi>
+               </item>
+               <item>
+                  <hi>Edward Towel.</hi>
+               </item>
+               <item>
+                  <hi>Edward Lane.</hi>
+               </item>
+               <item>
+                  <hi>John Vincent.</hi>
+               </item>
+               <item>
+                  <hi>John Pits.</hi>
+               </item>
+               <item>
+                  <hi>Evan Gammidge.</hi>
+               </item>
+               <item>
+                  <hi>Andrew Robſon.</hi>
+               </item>
+               <item>
+                  <hi>VVilliam Cozens,</hi>
+               </item>
+               <item>
+                  <hi>Thomas Townſend</hi>
+               </item>
+               <item>
+                  <hi>Jaſper Diamond.</hi>
+               </item>
+               <item>
+                  <hi>Thomas Gregory.</hi>
+               </item>
+               <item>
+                  <hi>John Allen.</hi>
+               </item>
+               <item>
+                  <hi>Robert Hellier.</hi>
+               </item>
+               <item>
+                  <hi>Thomas Allen.</hi>
+               </item>
+               <item>
+                  <hi>Thomas Hellier.</hi>
+               </item>
+               <item>
+                  <hi>Thomas Beſt.</hi>
+               </item>
+               <item>
+                  <hi>John Marke.</hi>
+               </item>
+               <item>
+                  <hi>John Mitchel.</hi>
+               </item>
+               <item>
+                  <hi>John Madders.</hi>
+               </item>
+               <item>
+                  <hi>Thomas Hallet.</hi>
+               </item>
+               <item>
+                  <hi>John Alſop.</hi>
+               </item>
+               <item>
+                  <hi>George Maſſey.</hi>
+               </item>
+               <item>
+                  <hi>John Pinney.</hi>
+               </item>
+               <item>
+                  <hi>Charles Strong.</hi>
+               </item>
+               <item>
+                  <hi>VVilliam Pead.</hi>
+               </item>
+               <item>
+                  <hi>VVilliam Sanders.</hi>
+               </item>
+               <item>
+                  <hi>James Spence.</hi>
+               </item>
+               <item>
+                  <hi>John VVillſon.</hi>
+               </item>
+               <item>
+                  <hi>Edward Adams.</hi>
+               </item>
+               <item>
+                  <hi>John Adams.</hi>
+               </item>
+               <item>
+                  <hi>Anthony Billing.</hi>
+               </item>
+               <item>
+                  <hi>Arthur Luſher</hi>
+               </item>
+               <item>
+                  <hi>John Hutchins.</hi>
+               </item>
+               <item>
+                  <hi>John Lawrence.</hi>
+               </item>
+               <item>
+                  <hi>Thomas Bovet.</hi>
+               </item>
+               <item>
+                  <hi>Henry Beeſley.</hi>
+               </item>
+               <item>
+                  <hi>Robert Baker.</hi>
+               </item>
+               <item>
+                  <hi>John Duran.</hi>
+               </item>
+               <item>
+                  <hi>James Fowler.</hi>
+               </item>
+               <item>
+                  <hi>John White.</hi>
+               </item>
+               <item>
+                  <hi>Francis Langley.</hi>
+               </item>
+               <item>
+                  <hi>Thomas Moor.</hi>
+               </item>
+               <item>
+                  <hi>John Moggridg.</hi>
+               </item>
+               <item>
+                  <hi>Thomas Quick.</hi>
+               </item>
+               <item>
+                  <hi>Nicholas Salter.</hi>
+               </item>
+               <item>
+                  <hi>Francis Smith.</hi>
+               </item>
+               <item>
+                  <hi>Richard Green.</hi>
+               </item>
+               <item>
+                  <hi>VVilliam Marters.</hi>
+               </item>
+               <item>
+                  <hi>John Pacey.</hi>
+               </item>
+               <item>
+                  <hi>Thomas Greenway.</hi>
+               </item>
+               <item>
+                  <hi>John Prew.</hi>
+               </item>
+               <item>
+                  <hi>Richard Daniel.</hi>
+               </item>
+               <item>
+                  <hi>Peter Kent.</hi>
+               </item>
+               <item>
+                  <hi>John Skinner.</hi>
+               </item>
+               <item>
+                  <hi>Adam Clark.</hi>
+               </item>
+               <item>
+                  <hi>Chriſtopher Jewel.</hi>
+               </item>
+               <item>
+                  <hi>Abraham Thomas.</hi>
+               </item>
+               <item>
+                  <hi>John Baker.</hi>
+               </item>
+               <item>
+                  <hi>Daniel Pitſon.</hi>
+               </item>
+               <item>
+                  <hi>Robert Gough.</hi>
+               </item>
+               <item>
+                  <hi>George Hempton.</hi>
+               </item>
+               <item>
+                  <hi>Andrew Toſier</hi>
+               </item>
+               <item>
+                  <hi>Samuel Dollier.</hi>
+               </item>
+               <item>
+                  <hi>Peter Baggwell.</hi>
+               </item>
+               <item>
+                  <hi>Benjamin VVhicker.</hi>
+               </item>
+               <item>
+                  <hi>John Whicker.</hi>
+               </item>
+               <item>
+                  <hi>John Bagwell.</hi>
+               </item>
+               <item>
+                  <hi>Oliver Hob.</hi>
+               </item>
+               <item>
+                  <hi>John Ipſley.</hi>
+               </item>
+               <item>
+                  <hi>John Itchcock.</hi>
+               </item>
+               <item>
+                  <hi>Nicholas Betts.</hi>
+               </item>
+               <item>
+                  <hi>Thomas Foſſet</hi>
+               </item>
+               <item>
+                  <hi>William Gyles:</hi>
+               </item>
+               <item>
+                  <hi>Joſeph Gay.</hi>
+               </item>
+               <item>
+                  <hi>Thomas Perry.</hi>
+               </item>
+               <item>
+                  <hi>John VVinnely.</hi>
+               </item>
+               <item>
+                  <hi>VVilliam Grove.</hi>
+               </item>
+               <item>
+                  <hi>Samuel VValden.</hi>
+               </item>
+               <item>
+                  <hi>John Bulling.</hi>
+               </item>
+               <item>
+                  <hi>Robert Mulling.</hi>
+               </item>
+               <item>
+                  <hi>Roger Bryan.</hi>
+               </item>
+               <item>
+                  <hi>Charles Broughton.</hi>
+               </item>
+               <item>
+                  <hi>Richard Parker.</hi>
+               </item>
+               <item>
+                  <hi>John Hayn.</hi>
+               </item>
+               <item>
+                  <hi>Joſeph Downing.</hi>
+               </item>
+               <item>
+                  <hi>John Cornet.</hi>
+               </item>
+               <item>
+                  <hi>Matthew —</hi>
+               </item>
+               <item>
+                  <hi>John Glover.</hi>
+               </item>
+               <item>
+                  <hi>Emanuel Collins.</hi>
+               </item>
+               <item>
+                  <hi>Roger Hobbs.</hi>
+               </item>
+               <item>
+                  <hi>John Gay.</hi>
+               </item>
+               <item>
+                  <hi>John Trottle.</hi>
+               </item>
+               <item>
+                  <hi>Chri. Marriot.</hi>
+               </item>
+               <item>
+                  <hi>Joſeph Hallet.</hi>
+               </item>
+               <item>
+                  <hi>Nath. VVebber.</hi>
+               </item>
+               <item>
+                  <hi>Edward Morton.</hi>
+               </item>
+               <item>
+                  <hi>James Salter.</hi>
+               </item>
+               <item>
+                  <hi>VVilliam Lowrey.</hi>
+               </item>
+               <item>
+                  <hi>Ambroſe Aſhbourn.</hi>
+               </item>
+               <item>
+                  <hi>Roger Prince.</hi>
+               </item>
+               <item>
+                  <hi>Joſeph Belts.</hi>
+               </item>
+               <item>
+                  <hi>Nicholas VVarren.</hi>
+               </item>
+               <item>
+                  <hi>Robert Sandey.</hi>
+               </item>
+               <item>
+                  <hi>VVilliam VVills.</hi>
+               </item>
+               <item>
+                  <hi>John Pryer.</hi>
+               </item>
+               <item>
+                  <hi>VVilliam Tucker.</hi>
+               </item>
+               <item>
+                  <hi>VVilliam Brown.</hi>
+               </item>
+               <item>
+                  <hi>Samuel Lawrence.</hi>
+               </item>
+               <item>
+                  <hi>John Hutchins.</hi>
+               </item>
+               <item>
+                  <hi>Zachariah Brown.</hi>
+               </item>
+               <item>
+                  <hi>William Clark.</hi>
+               </item>
+               <item>
+                  <hi>John Brown.</hi>
+               </item>
+               <item>
+                  <hi>Thomas Dolling.</hi>
+               </item>
+               <item>
+                  <hi>Edward Maſh.</hi>
+               </item>
+               <item>
+                  <hi>George Tucker.</hi>
+               </item>
+               <item>
+                  <hi>John Eaſtman.</hi>
+               </item>
+               <item>
+                  <hi>Robert Burridge.</hi>
+               </item>
+               <item>
+                  <hi>John Allenbridg.</hi>
+               </item>
+               <item>
+                  <hi>Henry Tucker.</hi>
+               </item>
+               <item>
+                  <hi>Thomas Burridge.</hi>
+               </item>
+               <item>
+                  <hi>Thomas Cornelius.</hi>
+               </item>
+               <item>
+                  <hi>William Burridg.</hi>
+               </item>
+               <item>
+                  <hi>Humphrey Moulton.</hi>
+               </item>
+               <item>
+                  <hi>A— Lacy.</hi>
+               </item>
+               <item>
+                  <hi>Ro. Dale.</hi>
+               </item>
+               <item>
+                  <hi>Edward Willmot.</hi>
+               </item>
+               <item>
+                  <hi>William Williams.</hi>
+               </item>
+               <item>
+                  <hi>Thomas Marſhal.</hi>
+               </item>
+               <item>
+                  <hi>Richard Paul.</hi>
+               </item>
+               <item>
+                  <hi>Hugh Willmot.</hi>
+               </item>
+               <item>
+                  <hi>John Johnſon.</hi>
+               </item>
+               <item>
+                  <hi>Joſeph Paul.</hi>
+               </item>
+               <item>
+                  <hi>Richard Allen.</hi>
+               </item>
+               <item>
+                  <hi>James Hock.</hi>
+               </item>
+               <item>
+                  <hi>John Gadbey.</hi>
+               </item>
+               <item>
+                  <hi>Edward Ben.</hi>
+               </item>
+               <item>
+                  <hi>Richard Pine.</hi>
+               </item>
+               <item>
+                  <hi>Thomas Peſter.</hi>
+               </item>
+               <item>
+                  <hi>William Cox. Jun.</hi>
+               </item>
+               <item>
+                  <hi>Richard Cox.</hi>
+               </item>
+               <item>
+                  <hi>Peter Troket.</hi>
+               </item>
+               <item>
+                  <hi>John VVellman.</hi>
+               </item>
+               <item>
+                  <hi>John Samm.</hi>
+               </item>
+               <item>
+                  <hi>Henry Sing.</hi>
+               </item>
+               <item>
+                  <hi>William Deale.</hi>
+               </item>
+               <item>
+                  <hi>William Clark.</hi>
+               </item>
+               <item>
+                  <hi>Walter Osborne.</hi>
+               </item>
+               <item>
+                  <hi>Richard Hore.</hi>
+               </item>
+               <item>
+                  <hi>William Hayns.</hi>
+               </item>
+               <item>
+                  <hi>Thomas Franckling.</hi>
+               </item>
+               <item>
+                  <hi>Thomas Lawrence.</hi>
+               </item>
+               <item>
+                  <hi>John Jones</hi> and <hi>Joſeph Strong,</hi> were ſet aſide.</item>
+            </list>
+            <p>All which were carryed back to be kept in ſafe Cuſtody till further Orders are taken for their diſpoſal: And thus by their raſh and unadviſedneſs they brought themſelves to diſgrace, who otherwiſe might have lived peaceably and happy in their Stations and been profitable to their Country.</p>
+            <p>By this it is to be perceived how much Loyalty and Obedience is to be prefered before Diſloyalty and Stubbor<g ref="char:EOLhyphen"/>neſs, how much a calm and peaceable Temper exceeds a reſtleſs and unſatisfied
+<pb n="4" facs="tcp:101852:3"/>Diſpoſition, ſuch a one, as commonly pre<g ref="char:EOLhyphen"/>dominates in theſe kind of People, whom no mildneſs can win nor favours oblige, even to be kind to themſelves; for what more can be expected by Subjects than to live in Peace and Tranquillity under a gracious Prince, whoſe benign influence diſpences to all good Men an entire ſa<g ref="char:EOLhyphen"/>tisfaction, encouraging them cheerfully to proceed in thoſe meaſures that conti<g ref="char:EOLhyphen"/>nue and increaſe their good repute and felicity, making them deteſt and abhor that Itch of Rebellion which has ever tranſported the Faction to a degree of diſ<g ref="char:EOLhyphen"/>quiet and diſcontent, though it is plain that God has often blaſted their wicked machinations and contrivances in private and publick, and given them tokens of his diſpleaſure, though hardned in them<g ref="char:EOLhyphen"/>ſelves, they have refuſed all reproof, not<g ref="char:EOLhyphen"/>withſtanding their pretenſions are Con<g ref="char:EOLhyphen"/>ſcience and Religion, but what ſhare or juſt claim they have to either, they have made apparent to the World, and out<g ref="char:EOLhyphen"/>done in their attempts (to promote their wicked purpoſes) the very <hi>Mahometans,</hi> who though Infidels hold their Prince ſacred, that their Governours ought to be obeyed, and the peace of the Govern<g ref="char:EOLhyphen"/>ment they live under preſerved inviolate amongſt themſelves, as far as their en<g ref="char:EOLhyphen"/>deavours are capable of rendering it hap<g ref="char:EOLhyphen"/>py, and keeping matters in good order; and in that far out doing our pretended Zealots.</p>
+         </div>
+      </body>
+      <back>
+         <div type="license">
+            <p>This may be Printed, <hi>R. L. S. September</hi> the 17th. <hi>1685</hi>
+            </p>
+         </div>
+         <div type="colophon">
+            <p>LONDON' <hi>Printed by</hi> E. Mallet <hi>in</hi> Black Horſe-Alley <hi>in</hi> Fleet-ſtreet, <hi>near</hi> Fleet-Bridge.</p>
+         </div>
+      </back>
+   </text>
+</TEI>
